@@ -32,4 +32,4 @@ Base URL: `http://localhost:3000/v1`
 - Login works on JWT
 - Permissions are hardcoded in `/misc/permissions.js` can be made dynamic (according to project requirement), so that it can be changed from the dashboard
 - roles are hardcoded, **_0_** = User and **_1_** = Admin
-- Use token as `X-Token {token}` for sending requests
+- Use token as `X-Token {token}` in **Authorization** header for sending requests
